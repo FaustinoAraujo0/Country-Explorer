@@ -1,0 +1,71 @@
+* { box-sizing: border-box;}
+
+body{
+    background-color: rgba(14, 13, 13, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: aquamarine;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+#ipais {
+    padding: 10px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#btn {
+    border: none;
+    transition: background-color 0.3s;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(179, 176, 176);
+}
+
+.btn-pin {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: none;
+
+    transition: background-color 0.3s;
+}
+
+.btn-pin:hover {
+    background-color: rgba(46, 46, 46, 0.575);
+    cursor: pointer;
+}
+
+#titulo {
+    text-align: center;
+}
+
+.pdiv {
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#paises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
